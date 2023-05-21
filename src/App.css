@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+}
+
+.App{
+  width: 100%;
+  height: 100%;
+}
+
+.dummyText{
+  display: flex;
+  justify-content: center;
+  height: 2.28rem;
+  width: auto;
+  padding-top: 6px ;
+  background-color: #3772FF;
+}
+
+.dummyText > p{
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+
+}
+
+.dashboard{
+  display: flex;
+  width: 100%;
+  height: 52.3rem;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 52.23rem auto;
+  background-color: black;
+  border-right: 2px solid #242731;
+
+}
+
+.section{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.icon > h2{
+font-weight: 600;
+font-size: 23.5618px;
+margin-top: -3px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+
+}
+
+.icon{
+  cursor: pointer;
+  width: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2.4rem;
+  width: 7rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem; 
+  padding-right: 8rem;
+}
+
+.item:hover{
+  cursor: pointer;
+  background-color: #353945;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+}
+
+
+.balance{
+  display: flex;
+  width: 20rem;
+  margin: 2rem 0;
+}
+
+.price1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.938rem;
+  height: 2.114rem;
+  background-color: #353945;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  cursor: pointer; 
+  margin-right: 1rem; 
+}
+
+.price2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.938rem;
+  height: 2.114rem;
+  background-color: #A3E3FF;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.toggle{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 2rem 2rem;
+
+}
+
+.toogleMode{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5.938rem;
+  height: 2.114rem;
+  background-color: #353945;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  margin: 0 2rem;
+}
+
+.section-top{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #353945;
+  height: 4rem;
+}
+
+.section-bottom{
+  display: flex;
+  
+}
+
+.section-left{
+  flex:7.5;
+  border-right: 2px solid #353945;
+  height: 50.9rem;
+}
+
+.section-right{
+  padding: 1rem;
+  flex:2.5;
+  flex-direction: column;
+
+}
+.section-right-top, .editForm{
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
+.editForm > input, textarea{
+
+  background-color: #242731;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin: 5px;
+  color: #A6A6A6;
+  border: none;
+  width: 100%;
+  height: 3.188;
+}
+.editForm > button{
+
+  width: 100%;
+  height: 2.114rem;
+  background-color: #3772FF;
+  border: none;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.editForm > button:hover{
+  background-color: hsl(225, 73%, 80%);
+
+}
+
+.entered-todo-list{
+  background-color: #242731;;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin: 1rem;
+  color: #A6A6A6;
+  border: none;
+  width: 15.563rem;
+  height: 3.164;
+}
+
+.todo-list > input{
+  background-color: #242731;;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin: 1rem;
+  color: #A6A6A6;
+  border: none;
+  outline: none;
+  width: 15.563rem;
+  height: 3.164;
+}
+
+.add-todo{
+  width: 16.875rem;
+  height: 7.25rem;
+  background: #191B20;
+  opacity: 0.8;
+  border-radius: 16px;
+  margin: 0 1rem;
+  padding: 5px;
+  margin-bottom: 1rem;
+
+}
+
+.todo-title{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 17rem;
+}
+
+.todo-title > input{
+
+  background-color: #191B20; 
+  border:none;
+  outline: none;
+  font-weight: 700;
+  font-size: 18px; 
+  color: #6E6E6E;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 14rem;
+  height: 2.25rem;
+  margin-top: 3px;
+}
+
+.add-todo > textarea{
+  resize: none;
+  outline: none;
+  width: 16rem;
+  height: 3.203 auto;
+  background-color: #191B20;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+padding: 5px  ;
+}
