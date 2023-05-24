@@ -51,7 +51,7 @@ function Section() {
           }}
         >
           <div>
-            <TodoList />
+            <TodoList id='1' />
             {
               <AddTodo
               id='1'
@@ -80,7 +80,7 @@ function Section() {
           </div>
 
           <div>
-            <TodoList />
+            <TodoList id='2'/>
             {
               <AddTodo
                 id='2'
@@ -109,7 +109,7 @@ function Section() {
           </div>
 
           <div>
-            <TodoList />
+            <TodoList id='3' />
             {
               <AddTodo
                 id='3'

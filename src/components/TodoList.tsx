@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
+interface TodoListProps {
+  id: string;
+}
 
-function TodoList() {
+
+function TodoList(props: TodoListProps) {
   const [list, setList] = useState("");
   const [listAdded, setListAdded] = useState(false);
 

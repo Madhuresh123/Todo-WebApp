@@ -21,7 +21,6 @@ function AddTodo(props: AddTodoProps) {
   };
     props.setTodoInputData([...props.todoInputData, newInput]);
     props.setIsTodoInput(true);
-    // props.setTodoId(id)
     setTodoTitle("");
     setTodoDesc("");
     console.log(props.todoInputData)

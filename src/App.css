@@ -273,3 +273,57 @@ font-size: 16px;
 line-height: 16px;
 padding: 5px  ;
 }
+
+.register, .login{
+  height: 100vh;
+  background-color: #242731;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerForm, .loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  }
+
+.registerForm > input, button, .loginForm > input, button{
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.registerForm > button{
+  background-color: red;
+  color: white;
+}
+
+.loginForm > button{
+  background-color: green;
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #353945;
+}
+
+.amount{
+  color: white;
+  margin-right: 10rem;
+}
+
+.side{
+  width: 100vw;
+  height: 10vh;
+  background-color: #3772FF;
+}
+
+.side > button{
+  margin: 1rem;
+}
